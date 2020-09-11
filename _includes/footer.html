@@ -8,16 +8,19 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">
+          <!-- <li class="p-name">
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li>
+            </li> -->
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ ruoqi.zhang@it.uu.se }}">{{ site.email }}</a></li>
+            <li>
             {%- endif -%}
+            <a href="{{ '/tags.html' | relative_url }}">Tags</a> | <a href="{{ '/contact.html' | relative_url }}">Contact</a> </li>
+            
         </ul>
       </div>
 
